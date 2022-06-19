@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 995px;
+  min-height: 1103px;
 }
 
 .u-section-1 .u-image-1 {
@@ -110,15 +110,26 @@
   letter-spacing: 1px;
   font-size: 1.125rem;
   background-image: none;
-  margin: 53px auto 60px;
+  margin: 53px auto 0;
   padding: 20px 55px 21px 54px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1029px;
-  }
+.u-section-1 .u-btn-5 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  margin: 30px auto 60px;
+  padding: 11px 50px 11px 49px;
+}
 
+.u-section-1 .u-icon-4 {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.3em;
+}
+
+@media (max-width: 1199px) {
   .u-section-1 .u-text-6 {
     width: auto;
     margin-top: 34px;
@@ -135,15 +146,10 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 41px;
-    margin-bottom: 0;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 876px;
-  }
-
   .u-section-1 .u-text-2 {
     font-size: 5rem;
   }
@@ -182,10 +188,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 991px;
-  }
-
   .u-section-1 .u-text-2 {
     font-size: 3.75rem;
   }
@@ -213,30 +215,39 @@
 
   .u-section-1 .u-btn-4 {
     margin-top: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1004px;
-  }
-
   .u-section-1 .u-image-1 {
     height: 101px;
     width: 340px;
   }
 
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 20px;
+  }
+
   .u-section-1 .u-text-2 {
     font-size: 3rem;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   .u-section-1 .u-text-3 {
-    width: 340px;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-4 {
     width: 340px;
+    margin-top: 36px;
   }
 
   .u-section-1 .u-text-6 {
@@ -244,11 +255,11 @@
   }
 
   .u-section-1 .u-text-7 {
-    margin-top: -70px;
+    font-size: 1.5rem;
+    margin-top: 16px;
   }
 
   .u-section-1 .u-btn-4 {
-    margin-top: 118px;
-    margin-bottom: 43px;
+    margin-top: 32px;
   }
 }
