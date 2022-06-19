@@ -1,0 +1,211 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(41,46,51,0.75), rgba(41,46,51,0.75)), url("images/NVCC.jpeg");
+  background-position: 50% 50%;
+  min-height: 989px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 106px;
+  width: 357px;
+  margin: 32px auto 0 calc(((100% - 1140px) / 2) + 392px);
+}
+
+.u-section-1 .u-text-1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-family: "Akaya Kanadaka";
+  margin: 15px 571px 0;
+}
+
+.u-section-1 .u-text-2 {
+  text-shadow: 4px 4px 8px rgba(66,84,101,0.4);
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: Roboto, sans-serif;
+  text-transform: none;
+  margin: 15px auto 0 calc(((100% - 1140px) / 2) + 248px);
+}
+
+.u-section-1 .u-text-3 {
+  margin: 30px auto 0 calc(((100% - 1140px) / 2) + 358px);
+}
+
+.u-section-1 .u-list-1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  min-height: 375px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-icon-1 {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.3em;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-icon-2 {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.3em;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-icon-3 {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.3em;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-4 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-icon-4 {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.3em;
+}
+
+.u-section-1 .u-btn-5 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.125rem;
+  background-image: none;
+  margin: 51px auto 60px;
+  padding: 20px 55px 21px 54px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 815px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 158px;
+    margin-left: calc(((100% - 1140px) / 2) + 491px);
+    margin-right: calc(((100% - 1140px) / 2) + 491px);
+  }
+
+  .u-section-1 .u-repeater-1 {
+    min-height: 309px;
+  }
+
+  .u-section-1 .u-btn-5 {
+    margin-bottom: 15px;
+    margin-left: calc(((100% - 1140px) / 2) + 420px);
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 624px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 5rem;
+    margin-left: calc(((100% - 1140px) / 2) + 299px);
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-section-1 .u-btn-5 {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 468px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3.75rem;
+    margin-left: calc(((100% - 1140px) / 2) + 364px);
+  }
+
+  .u-section-1 .u-btn-5 {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 290px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 101px;
+    width: 340px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3rem;
+    margin-left: calc(((100% - 1140px) / 2) + 403px);
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: calc(((100% - 1140px) / 2) + 428px);
+  }
+}
